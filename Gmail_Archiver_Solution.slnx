@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Email_Archiver_Lib/Email_Archiver_Lib.csproj" />
+  <Project Path="Gmail_Archiver/Gmail_Archiver.csproj" />
+  <Project Path="Gmail_Archiver_ResourcesProject/Gmail_Archiver_ResourcesProject.shproj" Id="60287c97-ab2e-44c4-86c1-3257adeec27d" />
+</Solution>

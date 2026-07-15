@@ -1,0 +1,35 @@
+# ============================================================
+#  IVolt Gmail Archiver - example script (.ias)
+#  Run with:  Gmail_Archiver -s "C:\path\to\example.ias"
+#
+#  Rules:
+#    - one command per line
+#    - blank lines and lines starting with '#' are ignored
+#    - commands are case-insensitive
+#    - the configuration for each EMAIL must already exist
+#      (create it once via the interactive menu -> New configuration)
+# ============================================================
+
+# --- Load an account (decrypts its DPAPI-protected config) ---
+EMAIL you@gmail.com
+
+# --- Pick what to fetch -------------------------------------
+# FULL      : everything in All Mail
+# RESUME    : everything, but skip already-archived (recommended)
+# NEW       : only messages above the stored UID high-water mark
+# DATERANGE : SCOPE DATERANGE 2020-01-01 2021-01-01   ('-' = open end)
+# LABEL     : SCOPE LABEL "[Gmail]/All Mail"
+SCOPE RESUME
+
+# --- Do the work --------------------------------------------
+PROCESS
+
+# --- Confirm the archive is healthy and resumable -----------
+VERIFY
+SUMMARY
+
+# --- Example: a second account in the same run --------------
+# EMAIL another@gmail.com
+# SCOPE NEW
+# PROCESS
+# VERIFY DEEP

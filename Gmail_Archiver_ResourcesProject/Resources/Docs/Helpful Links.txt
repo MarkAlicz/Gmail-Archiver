@@ -1,0 +1,6 @@
+﻿See and Configure IMAP Settings in Gmail
+https://mail.google.com/mail/u/2/#settings/fwdandpop
+
+Setting up Signing In With App Passwords
+https://support.google.com/accounts/answer/185833?hl=en&authuser=2
+

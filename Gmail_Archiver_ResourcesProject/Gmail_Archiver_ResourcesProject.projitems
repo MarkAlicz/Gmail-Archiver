@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>60287c97-ab2e-44c4-86c1-3257adeec27d</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Gmail_Archiver_ResourcesProject</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\MARKALICZ_GMAIL_COM\archive_json_template.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Configurations\configuration_template.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Resources\Docs\Helpful Links.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\AI_Code\ARCHIVED_CODE\Program_v-0.cs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\AI_Code\Email_Archiver_V1.zip" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\AI_Code\Expansion.zip" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\AI_Code\Install_Dependancies.zip" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\segments.gen" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\segments_21" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\write.lock" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.fdt" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.fdx" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.fnm" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.nvd" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.nvm" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y_Lucene41_0.doc" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y_Lucene41_0.pos" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y_Lucene41_0.tim" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1y_Lucene41_0.tip" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1z.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1z.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_1z.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_20.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_20.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_20.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_21.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_21.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_21.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_22.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_22.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_22.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_23.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_23.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_23.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_24.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_24.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_24.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_25.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_25.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_25.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_26.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_26.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_26.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_27.cfe" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_27.cfs" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_27.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.fdt" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.fdx" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.fnm" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.nvd" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.nvm" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28.si" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28_Lucene41_0.doc" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28_Lucene41_0.pos" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28_Lucene41_0.tim" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_28_Lucene41_0.tip" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_29.fdt" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\markalicz_gmail_com\INDEX\_29.fdx" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Docs\IVolt_Menu_Subsystem_Developer_Guide.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Examples\Install_Dependancies\Install-Dependencies.bat" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Examples\Install_Dependancies\Install-Dependencies.ps1" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Examples\Install_Dependancies\install-dependencies.sh" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Docs\Gmail_Archiver_Readme.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Docs\IVolt_Gmail_IMAP_Archiver_User_Guide.pdf" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Docs\IVolt_Gmail_IMAP_Archiver_User_Guide_V2.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\AI_Code\ARCHIVED_CODE\Gmail_Fetch_Engine.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\ARCHIVES\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\ARCHIVES\INDEX\darkbit_gmail_com\INDEX\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\Examples\" />
+  </ItemGroup>
+</Project>
